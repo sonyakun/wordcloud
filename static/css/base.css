@@ -1,0 +1,24 @@
+html,
+body {
+    background-color: #FFFFFF;
+    color: #000000;
+    height: 100%;
+}
+
+#footer {
+    border-top: solid 1px lightgray;
+    padding-bottom: 10px;
+}
+
+#footer ul {
+    text-align: center;
+}
+
+#footer ul li {
+    padding: 0 4px;
+    display: inline;
+}
+
+#footer p {
+    text-align: center;
+}

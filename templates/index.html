@@ -1,0 +1,14 @@
+{% extends 'base.html' %}
+{% block content %}
+    <content>
+        <main>
+            <head>
+                <title>ワードクラウド生成</title>
+            </head>
+            <form  class="form-inline" action="/" method="POST" enctype="multipart/form-data">
+                <input type="file" id="file" name="file" accept="ファイルの種類">
+                <button type="submit" class="btn btn-primary">生成！</button>  <!-- #3 -->
+            </form>
+        </main>
+    </content>
+{% endblock %}
